@@ -97,8 +97,13 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   background: rgba(26, 24, 22, 0.85);
 }
+@font-face {
+  font-family: 'AVGARDD_2';
+  src: url('/font/AVGARDD_2.TTF');
+}
 
 #header .logo h1 {
+  font-family: 'AVGARDD_2';
   font-size: 28px;
   margin: 0;
   line-height: 1;
