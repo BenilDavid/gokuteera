@@ -101,9 +101,22 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'AVGARDD_2';
   src: url('/font/AVGARDD_2.TTF');
 }
+@font-face {
+  font-family: 'avant_garde_regular';
+  src: url('/font/Avant_Garde_Regular.ttf');
+}
+@font-face {
+  font-family: 'AVGARDDO';
+  src: url('/font/AVGARDDO_2.TTF');
+}
+@font-face {
+  font-family: 'AVGARDN';
+  src: url('/font/AVGARDN_2.TTF');
+}
 
 #header .logo h1 {
-  font-family: 'AVGARDD_2';
+  /* font-family: 'AVGARDD_2'; */
+  font-family: 'avant_garde_regular';
   font-size: 28px;
   margin: 0;
   line-height: 1;
