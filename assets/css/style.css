@@ -701,9 +701,9 @@ section {
 }
 
 .about .video-box {
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position:center center;
   min-height: 400px;
   position: relative;
 }
