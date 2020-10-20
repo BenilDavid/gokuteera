@@ -858,7 +858,7 @@
           </div>
         </div>
 
-        <form action="forms/contact.php" method="post" role="form" class="php-email-form" data-netlify="true">
+        <!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form" data-netlify="true">
           <div class="form-row">
             <div class="container">
               <h4 class="text-center" style="font-family: 'AVGARDN';">Enquiries and Bulk requirements</h4>
@@ -889,8 +889,29 @@
             <div class="sent-message">Your message has been sent. Thank you!</div>
           </div>
           <div class="text-center"><button type="submit">Send Message</button></div>
-        </form>
+        </form> -->
 
+        <form name="contact" method="POST" data-netlify="true">
+          <p>
+            <label>Your Name: <input type="text" name="name" /></label>   
+          </p>
+          <p>
+            <label>Your Email: <input type="email" name="email" /></label>
+          </p>
+          <p>
+            <label>Your Role: <select name="role[]" multiple>
+              <option value="leader">Leader</option>
+              <option value="follower">Follower</option>
+            </select></label>
+          </p>
+          <p>
+            <label>Message: <textarea name="message"></textarea></label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
+        
       </div>
     </section><!-- End Contact Section -->
     <div class="map">
