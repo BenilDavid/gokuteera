@@ -858,7 +858,7 @@
           </div>
         </div>
 
-        <form action="" method="POST" name="contact" class="php-email-form" data-netlify="true">
+        <form method="POST" name="contact" class="php-email-form" data-netlify="true">
           <div class="form-row">
             <div class="container">
               <h4 class="text-center" style="font-family: 'AVGARDN';">Enquiries and Bulk requirements</h4>
@@ -866,17 +866,21 @@
             <br>
             <br>
             
-            <div class="col-md-6 form-group">
+            <div class="col-md-6 form-group"> 
+              <label>
               <input type="text" name="name" class="form-control" id="name" placeholder="Name" data-rule="minlen:3" data-msg="Please enter at least 4 chars" required ="true">
+             </label>              
               <div class="validate"></div>
             </div>
-            <div class="col-md-6 form-group">
+            <div class="col-md-6 form-group"><label>
               <input type="email" class="form-control" name="email" id="email" placeholder="E-mail Address" data-rule="email" data-msg="Please enter a valid email" required ="true">
+            </label>
               <div class="validate"></div>
             </div>
           </div>
-          <div class="form-group">
+          <div class="form-group"><label>
             <input type="tel" class="form-control" name="subject" id="subject" placeholder="Mobile Number" data-rule="minlen:8" data-msg="Please enter a valid Number" required = "true">
+          </label>
             <div class="validate"></div>
           </div>
           <div class="form-group">
@@ -902,7 +906,7 @@
             <label>Phone Number<select name="phone number"></label>
               <option value="leader">Leader</option>
               <option value="follower">Follower</option> -->
-            </select>
+            <!-- </select>
           </p>
           <p>
             <label>Message: <textarea name="message"></textarea></label>
